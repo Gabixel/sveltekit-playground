@@ -4,7 +4,7 @@ Starting point for new SvelteKit experiments and playgrounds
 
 ---
 
-## Branch: `07-06-2026-service-worker`
+## Branch: `07-06-2026-service-worker-dev`
 
 See the `my-app` folder, created using `npx sv create my-app`, TypeScript and the Vercel adapter.
 

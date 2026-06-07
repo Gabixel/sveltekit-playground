@@ -24,7 +24,11 @@ const config = {
 		paths: {},
 		serviceWorker: {
 			// TODO
-			register: false,
+			register: true,
+			options: {
+				type: process.env.NODE_ENV === "production" ? "classic" : "module",
+				scope: "/",
+			},
 		},
 		router: {
 			type: "hash",

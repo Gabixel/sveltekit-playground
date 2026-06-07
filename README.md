@@ -1,2 +1,2 @@
-# svelte-playground
-Starting point for new Svelte/SvelteKit experiments and playgrounds
+# sveltekit-playground
+Starting point for new SvelteKit experiments and playgrounds

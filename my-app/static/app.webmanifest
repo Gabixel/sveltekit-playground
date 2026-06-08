@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest.json",
+  "name": "my-app-example",
+  "short_name": "myapp",
+  "description": "Playground!",
+  "id": "/",
+  "start_url": "/",
+  "theme_color": "#c00000",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "categories": ["music", "utilities", "navigation", "lifestyle"],
+  "icons": [],
+  "launch_handler": {
+    "client_mode": ["focus-existing", "navigate-existing", "auto"]
+  }
+}

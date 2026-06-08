@@ -6,6 +6,8 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+    <link rel="manifest" href="/app.webmanifest" crossorigin="use-credentials" />
+    <!-- <link rel="manifest" href="./app.webmanifest" /> -->
 </svelte:head>
 
 {@render children()}

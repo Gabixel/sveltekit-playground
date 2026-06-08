@@ -6,9 +6,11 @@ Starting point for new SvelteKit experiments and playgrounds
 
 ## Branch: `07-06-2026-service-worker-dev`
 
+### Status: `unknown`
+
 See the `my-app` folder, created using `npx sv create my-app`, TypeScript and the Vercel adapter.
 
-Notice how the service worker fails to register when we run the app in "dev" mode (`npm run dev`), but works fine in production or preview builds (`npm run build` → `npm run preview`).
+Notice how the service worker fails to register when we run the app in "dev" mode (`npm run dev`), but **works fine in production or preview builds** (`npm run build` → `npm run preview`).
 
 The generated JS file (in a GitHub Codespace) for the service worker points to `import '/@fs/workspaces/sveltekit-playground/my-app/src/service-worker.ts';`, which is definitely wrong, causing the following error:
 

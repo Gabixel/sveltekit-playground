@@ -18,7 +18,7 @@ See the `my-app` folder, created using `npx sv create my-app`, TypeScript and th
 
 Notice how the service worker fails to register when we run the app in "dev" mode (`npm run dev`), but **works fine in production or preview builds** (`npm run build` → `npm run preview`).
 
-The generated JS file (in a GitHub Codespace) for the service worker points to `import '/@fs/workspaces/sveltekit-playground/my-app/src/service-worker.ts';`, which is definitely wrong, causing the following error:
+The generated JS file (in a GitHub Codespace) for the service worker points to `import '/@fs/workspaces/sveltekit-playground/my-app/src/service-worker.ts';`, ~~which is definitely wrong,~~ causing the following error:
 
 `Uncaught (in promise) SecurityError: Failed to register a ServiceWorker for scope ('https://lorem-ipsum.app.github.dev/') with script ('https://lorem-ipsum.app.github.dev/service-worker.js'): The script resource is behind a redirect, which is disallowed.`
 

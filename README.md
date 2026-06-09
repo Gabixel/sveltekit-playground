@@ -6,7 +6,13 @@ Starting point for new SvelteKit experiments and playgrounds
 
 ## Branch: `07-06-2026-service-worker-dev`
 
-### Status: `unknown`
+### Status: `not-planned`
+
+The fix? If you're using GitHub Codespaces, make sure to expose the port to the public, preventing potential redirects to authentication flows.
+
+---
+
+### Description
 
 See the `my-app` folder, created using `npx sv create my-app`, TypeScript and the Vercel adapter.
 
